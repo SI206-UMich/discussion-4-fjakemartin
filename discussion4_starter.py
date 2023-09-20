@@ -1,3 +1,5 @@
+
+
 class Rectangle():
     # Create the constructor "__init__" method
     # Arguments: width (an ingeter), height (an integer)
@@ -7,7 +9,9 @@ class Rectangle():
 
     # YOUR CODE HERE
 
-
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
     # Create the "__str__" method
     #
